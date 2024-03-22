@@ -1,6 +1,7 @@
 import pytest
 from selene import browser
 
+
 @pytest.fixture(scope='function')
 def browser_personal_settings():
     browser.config.base_url = 'https://demoqa.com'
